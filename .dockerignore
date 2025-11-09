@@ -1,0 +1,79 @@
+# Dependencies (will be installed in container)
+# Note: package-lock.json should be INCLUDED for reproducible builds
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# package-lock.json - KEEP THIS (needed for npm ci)
+
+# Build outputs (will be generated in container)
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables (should be passed at runtime)
+.env
+.env.local
+.env.*.local
+.env.*.backup
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Testing
+coverage/
+.nyc_output/
+test/
+*.spec.ts
+*.spec.js
+jest.config.js
+jest-e2e.json
+
+# Documentation (not needed in container)
+*.md
+docs/
+QUICKSTART.md
+SETUP_DATABASE.md
+README.md
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Misc
+.prettierrc.local
+.eslintcache
+.cache/
+
+
+# Docker files themselves (don't need to copy into image)
+Dockerfile
+.dockerignore
+docker-compose.yml
+.docker/

@@ -1,0 +1,68 @@
+{
+  "factors": [
+    {
+      "region": "North America",
+      "year": 2024,
+      "factorKgCo2PerKwh": 0.389,
+      "source": "EPA eGRID 2024",
+      "notes": "Average grid emission factor for North America"
+    },
+    {
+      "region": "North America",
+      "year": 2023,
+      "factorKgCo2PerKwh": 0.395,
+      "source": "EPA eGRID 2023",
+      "notes": "Average grid emission factor for North America"
+    },
+    {
+      "region": "Europe",
+      "year": 2024,
+      "factorKgCo2PerKwh": 0.275,
+      "source": "EEA 2024",
+      "notes": "Average grid emission factor for European Union"
+    },
+    {
+      "region": "Europe",
+      "year": 2023,
+      "factorKgCo2PerKwh": 0.285,
+      "source": "EEA 2023",
+      "notes": "Average grid emission factor for European Union"
+    },
+    {
+      "region": "Asia Pacific",
+      "year": 2024,
+      "factorKgCo2PerKwh": 0.612,
+      "source": "IEA 2024",
+      "notes": "Average grid emission factor for Asia Pacific region"
+    },
+    {
+      "region": "Asia Pacific",
+      "year": 2023,
+      "factorKgCo2PerKwh": 0.625,
+      "source": "IEA 2023",
+      "notes": "Average grid emission factor for Asia Pacific region"
+    },
+    {
+      "region": "South America",
+      "year": 2024,
+      "factorKgCo2PerKwh": 0.198,
+      "source": "IEA 2024",
+      "notes": "Average grid emission factor for South America (hydro-heavy)"
+    },
+    {
+      "region": "Africa",
+      "year": 2024,
+      "factorKgCo2PerKwh": 0.721,
+      "source": "IEA 2024",
+      "notes": "Average grid emission factor for Africa"
+    },
+    {
+      "region": "Middle East",
+      "year": 2024,
+      "factorKgCo2PerKwh": 0.654,
+      "source": "IEA 2024",
+      "notes": "Average grid emission factor for Middle East"
+    }
+  ]
+}
+
