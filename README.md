@@ -160,8 +160,7 @@ docker ps
 #### Step 3: Clone and Navigate to Project
 
 ```bash
-git clone <repository-url>
-cd EcoRatings
+git clone https://github.com/KashishBagga/ecoratings
 ```
 
 #### Step 4: Start Services with Docker Compose
